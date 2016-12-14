@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ListPresenterInterface {
-    func responseData(data: [Articles])
+    func responseData(data: [Article])
 }

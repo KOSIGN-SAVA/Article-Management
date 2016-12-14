@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Articles{
+struct Article{
     var id:Int!
     var title:String!
     var description:String!

@@ -8,8 +8,4 @@
 
 import Foundation
 
-@objc protocol ApiProtocol {
-    @objc optional func success(data:[String:AnyObject])
-    @objc optional func error(data:NSError)
-    @objc optional func response(data:HTTPURLResponse)
-}
+

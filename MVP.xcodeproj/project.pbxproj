@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F72FE7B91E0021A30058D592 /* ListViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FE7B81E0021A30058D592 /* ListViewControllerProtocol.swift */; };
 		F72FE7BB1E00260C0058D592 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FE7BA1E00260C0058D592 /* ListPresenter.swift */; };
 		F7525B7C1DFFB58E00A79E93 /* ListPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7525B7B1DFFB58E00A79E93 /* ListPresenterInterface.swift */; };
 		F7525B7E1DFFB6A400A79E93 /* SupportFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7525B7D1DFFB6A400A79E93 /* SupportFile.swift */; };
@@ -24,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F72FE7B81E0021A30058D592 /* ListViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewControllerProtocol.swift; sourceTree = "<group>"; };
 		F72FE7BA1E00260C0058D592 /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
 		F7525B7B1DFFB58E00A79E93 /* ListPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenterInterface.swift; sourceTree = "<group>"; };
 		F7525B7D1DFFB6A400A79E93 /* SupportFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportFile.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				F7E19D581DFFB220009586CF /* LaunchScreen.storyboard */,
 				F7E19D591DFFB220009586CF /* Main.storyboard */,
 				F7525B811DFFEF9000A79E93 /* DataCellTableViewCell.swift */,
-				F72FE7B81E0021A30058D592 /* ListViewControllerProtocol.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -217,7 +214,6 @@
 				TargetAttributes = {
 					F7F880441DFE5BDC001BEDEC = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = PG98TTFS9P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -267,7 +263,6 @@
 				F7E19D651DFFB220009586CF /* AppDelegate.swift in Sources */,
 				F7525B7C1DFFB58E00A79E93 /* ListPresenterInterface.swift in Sources */,
 				F7525B841DFFF41300A79E93 /* ViewController.swift in Sources */,
-				F72FE7B91E0021A30058D592 /* ListViewControllerProtocol.swift in Sources */,
 				F7525B7E1DFFB6A400A79E93 /* SupportFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PG98TTFS9P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/MVP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amret.MVP;
@@ -385,7 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PG98TTFS9P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/MVP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amret.MVP;
